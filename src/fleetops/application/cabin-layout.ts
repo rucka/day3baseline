@@ -9,7 +9,7 @@ import {
   ExucutionResult,
   Failure,
   Success,
-} from "./execution-results";
+} from "@core/application/execution-results";
 
 export class CabinLayoutApplicationService {
   public readonly repository: CabinLayoutRepository;

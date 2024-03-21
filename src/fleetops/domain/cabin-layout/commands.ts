@@ -1,5 +1,5 @@
 import { Row } from "../../model/cabin-layout";
-import { Command } from "../core/commands";
+import { Command } from "@core/domain/commands";
 
 export type CabinLayoutId = string;
 export type CabinLayoutCommand =
